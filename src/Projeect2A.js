@@ -31,9 +31,9 @@ function Project2A() {
         <>
         {/* with bootstrap structure  */}
         <div className='container '>
-            <div className='col-sm-8  mx-auto'>
+            <div className='col-sm-8 mt-5 mx-auto'>
 
-            <div className='card '>
+            <div className='card shadow bg-light'>
                 <div className='card-body '>
                     <div className='row'>
                         <div className='col-sm-6 form-group'>
@@ -49,7 +49,7 @@ function Project2A() {
                         <div className='col-sm-6 form-group'>
                             <label className=''>First Name</label>
                             <select className='form-control' onChange={(e)=>handlechange(e)}>
-                            <option type="text" value={"0"}>selcet option</option>
+                            <option type="text" value={"0"}>Selcet Option</option>
                             <option type="email" value={"1"}>Email</option>
                             <option type="number" value={"2"}>Phone</option>  
                             </select>
